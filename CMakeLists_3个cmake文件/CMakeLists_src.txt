@@ -1,0 +1,11 @@
+add_library( slam_project STATIC
+        camera.cpp
+        frame.cpp
+        mappoint.cpp
+        map.cpp
+        config.cpp
+        visual_odometry.cpp)
+
+target_link_libraries( slam_project
+        ${THIRD_PARTY_LIBS}
+        )

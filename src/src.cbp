@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="src"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hanyunhai/slam_project/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hanyunhai/slam_project/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hanyunhai/slam_project/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="/home/hanyunhai/slam_project/src/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanyunhai/slam_project/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="/home/hanyunhai/slam_project/src/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanyunhai/slam_project/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hanyunhai/slam_project/src/camera.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/config.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/frame.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/g2o_types.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/map.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/mappoint.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/visual_odometry.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="slam_project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\usr\local\lib\;CMake Files\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\g2o\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\Sophus\;CMake Files\src\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hanyunhai/slam_project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hanyunhai/slam_project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hanyunhai/slam_project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slam_project">
+				<Option output="/home/hanyunhai/slam_project/lib/libslam_project.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanyunhai/slam_project/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/hanyunhai/slam_project/."/>
+					<Add directory="/home/hanyunhai/Sophus"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 slam_project"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slam_project/fast">
+				<Option output="/home/hanyunhai/slam_project/lib/libslam_project.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanyunhai/slam_project/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/hanyunhai/slam_project/."/>
+					<Add directory="/home/hanyunhai/Sophus"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 slam_project/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_vo">
+				<Option output="/home/hanyunhai/slam_project/bin/run_vo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanyunhai/slam_project/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/hanyunhai/slam_project/."/>
+					<Add directory="/home/hanyunhai/Sophus"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/test/Makefile&quot;  VERBOSE=1 run_vo"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_vo/fast">
+				<Option output="/home/hanyunhai/slam_project/bin/run_vo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanyunhai/slam_project/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/hanyunhai/slam_project/."/>
+					<Add directory="/home/hanyunhai/Sophus"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/test/Makefile&quot;  VERBOSE=1 run_vo/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/slam_project/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hanyunhai/slam_project/src/camera.cpp">
+			<Option target="slam_project"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/config.cpp">
+			<Option target="slam_project"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/frame.cpp">
+			<Option target="slam_project"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/map.cpp">
+			<Option target="slam_project"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/mappoint.cpp">
+			<Option target="slam_project"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/visual_odometry.cpp">
+			<Option target="slam_project"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/test/main.cpp">
+			<Option target="run_vo"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/../../../usr/local/lib/cmake/g2o/g2oConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\g2o\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/../../../usr/local/lib/cmake/g2o/g2oConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\g2o\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/../../../usr/local/lib/cmake/g2o/g2oTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\g2o\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/../../../usr/local/lib/cmake/g2o/g2oTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\g2o\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/../Sophus/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\Sophus\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/slam_project/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

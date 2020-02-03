@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/slam_project.dir/main.cpp.o  -o slam_project 

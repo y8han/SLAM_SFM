@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libslam_project.a  CMakeFiles/slam_project.dir/camera.cpp.o CMakeFiles/slam_project.dir/frame.cpp.o CMakeFiles/slam_project.dir/mappoint.cpp.o CMakeFiles/slam_project.dir/map.cpp.o CMakeFiles/slam_project.dir/config.cpp.o CMakeFiles/slam_project.dir/g2o_types.cpp.o CMakeFiles/slam_project.dir/visual_odometry.cpp.o
+/usr/bin/ranlib ../lib/libslam_project.a
