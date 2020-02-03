@@ -12,3 +12,8 @@
 ****
 # Architecture
 Solving PnP using LM-optimization
+
+# How to launch it
+```bash
+./bin/run_vo
+```
